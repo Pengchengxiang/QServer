@@ -8,8 +8,17 @@
         <servlet-name>HttpsServlet</servlet-name>
         <servlet-class>main.com.chengxiang.servlet.HttpsServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>RenderServlet</servlet-name>
+        <servlet-class>main.com.chengxiang.servlet.RenderServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HttpsServlet</servlet-name>
         <url-pattern>/HttpsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RenderServlet</servlet-name>
+        <url-pattern>/RenderServlet</url-pattern>
     </servlet-mapping>
 </web-app>
